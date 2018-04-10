@@ -55,6 +55,6 @@ Try entering song names like 'U Smile - Justin Bieber' or 'Yellow - Coldplay'
 
 The Popularity Method does not consider the previous listening history of the user, it recommends the most popular songs to the user. If a popular song has already been listened by the user, then the songs is not shown in the recommendations.
 
-The Collaborative Filtering Method uses User-User similarity for generating the recommendations. The Song Finder also uses the Collaborative Filtering Method to generate similar songs.
+The Collaborative Filtering Method uses Item-Item similarity for generating the recommendations. The Song Finder also uses the Collaborative Filtering Method to generate similar songs.
 
 Tkinter has been used as the GUI, because if it is implemented as a Web Application then a lot of configuration changes are required when they are run on different operating systems.
