@@ -53,7 +53,7 @@ Try entering song names like 'U Smile - Justin Bieber' or 'Yellow - Coldplay'
 
 ## Misc
 
-The Popularity Method does not consider the previous listening history of the user, it recommends the most popular songs to the user. If a popula song has already been listened by the user, then the songs is not shown in the recommendations.
+The Popularity Method does not consider the previous listening history of the user, it recommends the most popular songs to the user. If a popular song has already been listened by the user, then the songs is not shown in the recommendations.
 
 The Collaborative Filtering Method uses User-User similarity for generating the recommendations. The Song Finder also uses the Collaborative Filtering Method to generate similar songs.
 
