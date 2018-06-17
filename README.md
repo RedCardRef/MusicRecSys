@@ -1,6 +1,6 @@
 # MusicRecSys
 
-The goal is to build a recommender system, to display similar songs based on the user listening history. Million Song Dataset has been used to build the system. The Training Data consists of the triplets file (user_id, song_id, play_count) since there is no explicit rating system, we consider the implicit play_count for understanding if the user likes a particular song. The entire dataset consists of 48 million triplets of size 2.8 GB which can be found [here](http://labrosa.ee.columbia.edu/millionsong/sites/default/files/challenge/train_triplets.txt.zip) . But for convenience we use a smaller subset of about 10,000 triplets which has the listening history of 365 users and contains 5151 songs. The associated song information is present in the song metadata file.
+The goal is to build a recommender system, to display similar songs based on the user listening history. Million Song Dataset has been used to build the system. The Training Data consists of the triplets file (user_id, song_id, play_count) since there is no explicit rating system, we consider the implicit play_count for understanding if the user likes a particular song. The entire dataset consists of 48 million triplets of size 2.8 GB which can be found [here](http://labrosa.ee.columbia.edu/millionsong/sites/default/files/challenge/train_triplets.txt.zip) . But for convenience we use a smaller [subset](http://static.turi.com/datasets/millionsong/10000.txt) of about 10,000 triplets which has the listening history of 365 users and contains 5151 songs. The associated song information is present in the song metadata [file](http://static.turi.com/datasets/millionsong/song_data.csv).
 
 ## Getting Started
 
@@ -13,17 +13,18 @@ You need to have python 3 installed with pip, then
 ```
 python -m pip install --upgrade pip
 pip3 install -r requirements.txt
+sudo apt-get install python3-tk
 ```
 
 or you can directly run 'Install Dependencies.bat' if you are on Windows.
 
 This will install/upgrade all the python packages necessary for running the recommender.(Pandas, Numpy, SciPy and sklearn)
 
+You also need to download the 10,000 triplet subset and song metadata file mentioned above. Easiest way to do that is to Right click on the link and select "Save as..". These two files must be stored in the root directory.
+
 ## Running the Recommender
 
 Once you have all the dependencies installed you can run the recommender
-
-NOTE: Starting up for the first time will take a while to run, because it needs to download files of about 200MB. This can be skipped if the files are downloaded locally.
 
 To run the recommender
 
