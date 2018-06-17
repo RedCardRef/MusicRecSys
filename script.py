@@ -18,8 +18,8 @@ title2 = tk.Label(text = "Get Predictions using:")
 title2.grid(column = 0,row = 1)
 #Read userid-songid-listen_count triplets
 #This step might take time to download data from external sources
-triplets_file = 'https://static.turi.com/datasets/millionsong/10000.txt'
-songs_metadata_file = 'https://static.turi.com/datasets/millionsong/song_data.csv'
+triplets_file = 'http://static.turi.com/datasets/millionsong/10000.txt'
+songs_metadata_file = 'http://static.turi.com/datasets/millionsong/song_data.csv'
 
 song_df_1 = pandas.read_table(triplets_file,header=None)
 song_df_1.columns = ['user_id', 'song_id', 'listen_count']
