@@ -12,7 +12,7 @@ You need to have python 3 installed with pip, then
 
 ```
 python -m pip install --upgrade pip
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 or you can directly run 'Install Dependencies.bat' if you are on Windows.
