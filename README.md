@@ -13,14 +13,14 @@ You need to have python 3 installed with pip, then
 ```
 python -m pip install --upgrade pip
 pip3 install -r requirements.txt
-sudo apt-get install python3-tk
+sudo apt-get install python3-tk ##not required for windows
 ```
 
 or you can directly run 'Install Dependencies.bat' if you are on Windows.
 
 This will install/upgrade all the python packages necessary for running the recommender.(Pandas, Numpy, SciPy and sklearn)
 
-You also need to download the 10,000 triplet [subset](http://static.turi.com/datasets/millionsong/10000.txt) and song metadata [file](http://static.turi.com/datasets/millionsong/song_data.csv). Easiest way to do that is to Right click on the link and select "Save link as...". These two files must be stored in the root directory.
+You also need to download the 10,000 triplet [subset](http://static.turi.com/datasets/millionsong/10000.txt)(118MB) and song metadata [file](http://static.turi.com/datasets/millionsong/song_data.csv)(78.4MB). Easiest way to do that is to Right click on the link and select "Save link as...". These two files must be stored in the root directory.
 
 ## Running the Recommender
 
