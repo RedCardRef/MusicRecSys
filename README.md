@@ -13,7 +13,6 @@ You need to have python 3 installed with pip, then
 ```
 python -m pip install --upgrade pip
 pip3 install -r requirements.txt
-sudo apt-get install python3-tk ##not required for windows
 ```
 
 or you can directly run 'Install Dependencies.bat' if you are on Windows.
