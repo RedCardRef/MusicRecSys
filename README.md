@@ -63,4 +63,4 @@ The Popularity Method does not consider the previous listening history of the us
 
 The Collaborative Filtering Method uses Item-Item similarity for generating the recommendations. The Song Finder also uses the Collaborative Filtering Method to generate similar songs.
 
-Tkinter has been used as the GUI, because if it is implemented as a Web Application then a lot of configuration changes are required when they are run on different operating systems.
+Tkinter has been used to implement GUI.
