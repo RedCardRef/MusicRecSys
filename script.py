@@ -9,7 +9,7 @@ from tkinter.messagebox import showinfo
 
 window = tk.Tk()
 window.title("Music Recommendation System")
-window.geometry("900x450")
+window.geometry("1250x555")
 title1 = tk.Label(text = "Enter User ID(0-364): ")
 title1.grid(column = 0,row = 0)
 entry1 = tk.Entry()
