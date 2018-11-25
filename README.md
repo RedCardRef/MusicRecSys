@@ -15,7 +15,6 @@ python -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-or you can directly run 'Install Dependencies.bat' if you are on Windows.
 
 This will install/upgrade all the python packages necessary for running the recommender.(Pandas, Numpy, SciPy and sklearn)
 
@@ -37,7 +36,6 @@ To run the recommender
 python script.py
 ```
 
-or you can directly execute 'Run Recommender.bat' if you are on Windows.
 
 This module contains both the Popularity Method and Collaborative Filtering Method. This module is used when the user listening history is already present in the dataset.
 
@@ -51,7 +49,6 @@ To run the song finder
 python findSong.py
 ```
 
-or you can directly execute 'Run Song Finder.bat' if you are on Windows.
 
 ### Usage
 
